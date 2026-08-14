@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EAE3D9"/>
+      <stop offset="100%" stop-color="#D4BFA3"/>
+    </linearGradient>
+    <linearGradient id="bottle" x1="10%" y1="0%" x2="90%" y2="100%">
+      <stop offset="0%" stop-color="#C9A882"/>
+      <stop offset="100%" stop-color="#7A5C3E"/>
+    </linearGradient>
+    <linearGradient id="liquid" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B8916A" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#6B4628" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <!-- 背景 -->
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <!-- ボトル本体 -->
+  <rect x="20" y="34" width="24" height="22" rx="4" fill="url(#bottle)"/>
+  <!-- 肩 -->
+  <path d="M20 34 Q20 24 32 22 Q44 24 44 34Z" fill="#C9A882"/>
+  <!-- ネック -->
+  <rect x="27" y="14" width="10" height="10" rx="2" fill="#B8916A"/>
+  <!-- キャップ -->
+  <rect x="25" y="9" width="14" height="7" rx="3" fill="#8B6E52"/>
+  <!-- ハイライト -->
+  <rect x="22" y="35" width="4" height="16" rx="2" fill="white" opacity="0.22"/>
+  <!-- 液体 -->
+  <rect x="20" y="46" width="24" height="10" rx="0 0 4 4" fill="url(#liquid)"/>
+  <!-- ネック溝 -->
+  <rect x="27" y="22" width="10" height="2" rx="1" fill="#7A5C3E" opacity="0.35"/>
+</svg>
