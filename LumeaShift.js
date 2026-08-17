@@ -764,8 +764,8 @@ if(scroll){
   var CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSjsy7uLvLKz4fS76G6xIqZioSYNr-TyBGlmj21jIRmgyFeDoNacMuYgkKDvA29Vkjl143fLSj0IMrY/pub?output=csv';
 
   // ── Railway上のバックエンド（APIキーはここには置かない。/chat エンドポイントを叩くだけ） ──
-  // var BACKEND_URL = 'https://chatbot-production-7c69.up.railway.app/chat';
-  var BACKEND_URL = 'https://chatbot-production-2ceb.up.railway.app/chat';
+  var BACKEND_URL = 'https://chatbot-production-7c69.up.railway.app/chat';
+  // var BACKEND_URL = 'https://chatbot-production-2ceb.up.railway.app/chat';
   var BACKEND_TIMEOUT_MS = 20000; // Railway無料枠のコールドスタート等を考慮した余裕あるタイムアウト
 
   var COMPANY_NAME = 'LUMEA SHIFT';
